@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+My name is Giang (you can call me Jan). I write about statistics and econometrics - sometimes about quantitative analysis.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I create this blog after days of constant nagging from my boyfriend, saying how I should promote what I wrote for the sake of sharing knowledge.
