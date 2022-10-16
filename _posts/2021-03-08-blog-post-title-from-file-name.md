@@ -1,32 +1,118 @@
-## Blog Post Title From First Header
+## F.A.Q - hay Kế toán cũng có thể làm data, đừng sợ
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+### Table of Contents
 
-If the file does not start with a header, then the post title will be derived from the filename.
+1. [Introduction](#introduction)
+2. [Background](#background)
+3. [Mình đã chuyển ngành như thế nào?](#transition)
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+3.1. [Chuẩn bị tìm việc](#fresher)
 
----
+3.2. [Bắt đầu tìm việc lần 2](#firstjob)
 
-### This is a header
+3.3. [Thay đổi chiến thuật](#strategy)
 
-#### Some T-SQL Code
+3.4. [Bế tắc trong công việc](#blockage)
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
+3.5. [Tìm việc lần 3](#secondjob)
 
-#### Some PowerShell Code
+4. [Tóm lại, mình cần làm gì để tìm việc](#tldr)
+5. [FAQ](#FAQ)
+6. [Kết bài](#conclusion)
 
-```powershell
-Write-Host "This is a powershell Code block";
+### Introduction <a name="introduction"></a>
 
-# There are many other languages you can use, but the style has to be loaded first
+Chào mọi người,
 
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+Mình là Hà Giang, hiện đang là data analyst cho một đơn vị ở Việt Nam. Khoảng hơn nửa năm đổ lại đây, mình nhận được rất nhiều message từ các bạn trên linkedin, hỏi về việc mình chuyển từ làm kế toán sang data analyst (DA) như thế nào. Nhiều bạn tỏ ra rất dè dặt, lo ngại rằng mình sẽ không theo được, hoặc bị đào thải... Do đó, mình viết entry này nhằm để:
+<ol><li>Giải thích thêm về những hiểu lầm mà các bạn thường gặp khi bắt đầu tìm hiểu về vị trí data analyst</li><li>Cổ vũ các bạn có background giống mình, để các bạn tự tin bước ra khỏi vỏ kén của mình</li></ol>Nếu bạn ngại đọc dài, có thể nhảy đến phần 4 và 5 ở trên mục lục luôn nhé :D
+
+### Background <a name="background"></a>
+
+* Cử nhân chuyên ngành Kế toán doanh nghiệp tại một trường ĐH ở Việt Nam (mình không du học và cũng không học trường F :D)
+* Gần 2 năm làm việc ở vị trí kế toán.
+* 2 năm kinh nghiệm ở vị trí DA ở một số cty local.
+* Không có bằng cấp gì liên quan đến IT/DS ngoại trừ một số chứng chỉ như DA-100, DP-100, Tableau Desktop Specialist,...
+
+### Mình đã chuyển ngành như thế nào? <a name="transition"></a>
+
+##### Chuẩn bị tìm việc (fresher) <a name="fresher"></a>
+
+Mình có lợi thế hơn các bạn khác một chút, đấy là mình có nền về lập trình (hồi ĐH đi thực tập cần xử lý nhiều file một lúc nên mình học Python để tự làm tool, sau này đi làm research assistant cho các thầy thì học thêm R). Thế nên việc học Python với mình khá dễ dàng, không đến nỗi loay hoay như nhiều bạn than thở :D
+
+Tháng 4/2020, mình nghỉ việc và quay về trường để học nốt lấy bằng, cũng đúng lúc dịch bùng và giãn cách xã hội toàn thành phố (chưa ra trường vì mình còn thiếu 3 môn thể dục lận :D đi làm thì mình được các sếp ưu ái, khi nào có thì nộp :))). Trước đó, mình đã xác định là sẽ đổi sang các vị trí như Business Intelligence Analyst/Data Analyst. **Sai lầm của mình lúc đó là nghe theo lời các trung tâm, đâm đầu vào học tool (Python, SQL, Tableau) mà không quan tâm đến phân tích dữ liệu.** Mình lên coursera và datacamp học lấy học để, học hết từ tool này qua tool khác chỉ để farm lấy certificates.
+
+Tháng 9/2020, (may mắn là) mình có offer cho vị trí DA cho một đơn vị outsource phần mềm khá lớn ở VN.
+
+##### Bắt đầu tìm việc lần 2 <a name="firstjob"></a>
+
+Các dự án mình tham gia chủ yếu là về data governance, data modeling, và reporting. Đơn vị này chủ yếu nhận các khách hàng Âu - Mỹ nên mình có cơ hội giao tiếp bằng tiếng Anh, cũng như học được kỹ năng stakeholder management :D sau hơn một năm ở đây, mình quyết định nghỉ vì lý do cá nhân và có career break khoảng 2 tháng, trước khi quay lại thị trường lao động. **Đây là giai đoạn thử thách nhất với mình, vì những lý do sau:**
+
+* Mục tiêu của mình là các cty product, có domain gần với background của mình nhất (fintech, bank,...). Tuy nhiên, mình lại **không có kinh nghiệm làm việc trong môi trường product nên không hiểu quy trình phát triển sản phẩm, cũng như chưa từng tiếp xúc với event-based data (đặc trưng của các sản phẩm mobile app)**.
+* Mình chưa thực sự ổn ở việc rút ra insight từ các tập dataset, do đó việc làm các bài take-home assignment với mình khá là khó khăn. Các interviewer đều đánh giá là kết luận của mình hơi nông, chưa đào sâu được như họ mong muốn.
+* Kỹ năng lập trình quá kém, do một thời gian dài chỉ làm việc với SQL và Tableau. Một số cty còn có programming test hỏi về thuật toán, nên mình tạch từ đầu nước.
+* Kỹ năng phỏng vấn của mình lúc đó chưa thực sự tốt, chưa kể ra được câu chuyện và cho thấy sự nhất quán trong quá trình làm việc của mình.
+* CV chưa được chuẩn, chưa ấn tượng, format chưa pass được ATS. Quan trọng nhất là bê một CV đi apply nhiều job :(
+
+##### Thay đổi chiến thuật <a name="strategy"></a>
+
+Mình stress triền miên trong suốt 1.5 tháng tìm việc. Bản thân mình khá là introverted nên việc nói nhiều là một cực hình. Mỗi lần đi phỏng vấn mình đều xin feedback từ nhà tuyển dụng, cũng được họ góp ý chân thành và rất chi tiết. Không dám nói rõ ra con số nhưng tính ra mình apply 10 cty thì có 3 cty mời phỏng vấn (1 trong số đó là có offer), 7 cty còn lại là ghost mình luôn :D thế là mình lên chiến thuật (tìm việc) như sau:
+<ol><li>Lọc ra các job description (JD) phù hợp với trình độ và mục tiêu của mình.</li><li>Tailor (chỉnh sửa) CV theo từng JD</li><li>Chủ động liên lạc với recruiter trên linkedin, hoặc gửi CV cho các headhunter để được ping khi có JD phù hợp</li><li>Tranh thủ thời gian làm portfolio, viết blog, tham khảo từ medium...</li></ol>Mình kết thúc 1.5 tháng tìm việc (+ 02 tuần chờ kết quả) bằng 05 offer, rồi quyết định dừng chân ở vị trí DA cho một cty ở Singapore, làm remote, thu nhập gấp đôi vị trí cũ. Cứ ngỡ tới đây là an bài rồi, nhưng... :D
+
+##### Bế tắc trong công việc <a name="blockage"></a>
+
+Cty mình lúc đó là một cty chuyên về dịch vụ, mình làm in-house DA để giúp họ xây dựng các báo cáo vận hành + tool cho các bạn kế toán và project manager. Sếp mình là một người rất tốt, bác luôn động viên mình chuyển sang dùng python và node.js cho công việc dễ dàng hơn (lúc này mình vẫn dùng VBA để dựng tool và Metabase để làm báo cáo, chủ yếu là drag and drop). Nhưng mình chưa sẵn sàng, nên cứ cố gắng lờ lớ lơ đi và chỉ đứng ở vùng an toàn.
+
+Bên cạnh đó, do chưa có kinh nghiệm chuyển việc nên mình không hỏi kỹ về SOW (scope of work) mà chỉ chăm chăm tìm được việc thôi. Thế nên lúc làm mình mới ngã ngửa, vì toàn những thứ trước giờ chưa từng làm đến :D
+
+Ngoài ra, vì là lần đầu tiên làm remote nên mình thấy khá bỡ ngỡ, không biết cách quản lý thời gian cũng như khối lượng công việc. Thành ra lúc nào mình cũng bị lo lắng (anxious) do cảm thấy bản thân mình làm không ra kết quả. Bác sếp vẫn rất tâm lý, bác có nói là "chỉ cần có progress là được, chậm hoặc nhanh không quan trọng". Mình cứ nghĩ mình vẫn cố được, cho đến khi cty có thông báo layoff. Và data analyst (tất nhiên) được cho ra đi đầu tiên, vì là thuộc cost center :D
+
+*Bài học mình rút ra được:*
+
+* Bước ra khỏi vùng an toàn thì mới phát triển được.
+* Show your work! :D kể cả là những cái nhỏ nhất như một cái tool để flatten các file yaml, json, xml... hay excel template cho các bạn PM tính estimation.
+* Make smaller milestones. Đừng cố đặt ra mục tiêu lớn quá, hãy làm những thứ nhỏ trước đã.
+* **Communicate, communicate and commnunicate**, điều quan trọng phải nói 3 lần. Khi có khó khăn, hãy nói để mọi người cùng giúp bạn, cũng như khi bạn làm được gì đó :D mục tiêu là giải quyết vấn đề mà.
+
+##### Tìm việc lần 3, và mình đã thay đổi những gì? <a name="secondjob"></a>
+
+Như đã nói ở trên, mình bắt đầu tập trung phỏng vấn tiếp, cũng như reconnect với các bên đã gửi offer trước đó. Lần này thì thêm một số ý mới:
+
+* Mình chủ động nhận take-home assignment. Lý do: các hiring manager *thường* sẽ cố gắng chọn các assignment có nội dung và kỹ năng giống với công việc hàng ngày nhất. Muốn nắm được ý của họ thì nên đi từ công đoạn này.
+* Hỏi kỹ hơn về day-to-day work và nhu cầu của hiring manager, cũng như các nút thắt của họ ở thời điểm hiện tại (hàng ngày thì anh/chị sẽ expect em làm công việc gì, bọn em sẽ làm với những ai,...). Vì phải có lý do thì người ta mới thuê bạn chứ, nhỉ :D
+* Kết nối lại với những bên mình đã reject để xem họ còn nhu cầu tuyển không.
+
+Ví dụ cho ý thứ 2: mình ứng tuyển vào vị trí DA của một consulting firm, bộ phận chuyên về financial advisory. Hiring manager thừa nhận là không hiểu nhiều về kỹ thuật, do đó cần một bạn analyst có thể hỗ trợ. Sau khi làm việc, mình gạch ra được một số điểm như sau:
+
+* Dữ liệu họ nhận về thường có hiện tượng lỗi font, lỗi format,... các bạn consultant phải manual clean rất mất thời gian.
+* Khi present cho client thì cần báo cáo (có visualization). Vẫn như trên, các bạn consultant làm lại bằng excel, rất mất thời gian mà trông còn không fancy :D
+* Hiring manager thường xuyên có nhu cầu crawl data từ nhiều nguồn khác nhau.
+
+OK, từ đoạn này thì hiểu rồi. Thế là mình chỉ trình bày giải pháp và các dự án tương tự mình làm thôi :D sau đó mình cũng nhận được offer của bên này, nhưng mình reject vì không phù hợp :) và mình hạ cánh ở công ty hiện tại, đã qua thử việc và khá hài lòng :D
+
+### Tóm lại, mình cần làm gì (để bắt đầu tìm việc)? <a name="tldr"></a>
+
+<ol><li>Cải thiện các kỹ năng liên quan đến phân tích và business sense (không biết dịch ra như thế nào :D). Nhận một vấn đề, bạn cần biết nên tiếp cận như thế nào cho hiệu quả, ngoài ra còn là việc trích xuất insight từ dữ liệu nữa. Ví dụ: Bạn nhận được dataset về thời gian vận chuyển của một đơn vị giao hàng, bạn cần rút ra được những điều như "tại sao ở thời điểm này/địa điểm này lại giao hàng lâu hơn" (có thể do đường tắc/làm lại đường), "tại sao có nhiều đơn không tìm được tài xế" (vì áp mã KM,...)</li><li>SQL là kỹ năng quan trọng nhất. Vì nếu không có SQL, bạn sẽ không thể lấy dữ liệu để phân tích được.</li><li>Các công cụ còn lại chỉ là phụ. Phân tích thì dùng excel cùng được, làm dashboard bằng excel cũng OK luôn :) quan trọng là bạn có rút ra được gì từ dữ liệu không? còn việc bạn thể hiện ra như thế nào là do bạn. Python sẽ hơi khó nhai nếu bạn chưa lập trình bao giờ, nên học từ từ thôi :D</li><li>Chứng chỉ chỉ là phụ (trừ khi bạn đi làm ở các đơn vị outsource), Quan trọng nhất vẫn là portfolio của bạn, để chứng minh cho nhà tuyển dụng thấy bạn có sản phẩm cụ thể.</li><li>Chủ động networking với các bạn HR/headhunter và cold message các CEO, những người làm data ở các cty bạn thích để tìm việc. Nhớ giới thiệu đàng hoàng và attach CV kèm theo nha :)&nbsp;</li><li>... có nghĩ ra rồi nhưng chưa viết thành lời được, tạm thế đã :D</li></ol>
+
+### FAQ <a name="FAQ"></a>
+<br>
+Những câu mọi người hay hỏi
+
+
+| STT | Câu hỏi | Trả lời |
+| --- | ------- | ------- |
+| 1 | Mình đang làm kế toán/marketing/\<insert any non-tech job> muốn chuyển sang data analyst nhưng kém tin học thì có sao không? | Khum sao cả, quan trọng nhất là tư duy. Công cụ có thể học từ từ nha. Và nhớ làm bài tập, có portfolio nữa. |
+| 2 | Mình nên học ở nguồn nào? Trung tâm nào? Trung tâm ABCXYZ có tốt không? | Quan điểm cá nhân: Học ở đâu cũng được, miễn là bạn chăm chỉ và chịu khó làm bài, rồi làm cả portfolio nữa. Trên mạng nhiều tư liệu mà, trung tâm nữa thì lại càng tốt vì có người chỉ bài luôn :D |
+| 3 | Mình có chứng chỉ ABCXYZ thì đã đi làm DA được chưa? | Hên xui à, cứ apply thử xem :D nhưng kinh nghiệm của mình là học mỗi mấy chứng chỉ đó chưa đủ, thường là nhà tuyển dụng họ nhìn xong họ cũng bỏ qua thôi. Cái chính vẫn là show your work, để họ thấy bạn làm được gì. |
+| 4 | Mình muốn học văn bằng 2/du học IT/DS để đi làm DA | Không nên nha, muốn làm DA thì cứ lao vào làm thôi :D không có gì chắc chắn là học 2 năm xong bạn sẽ sẵn sàng để có việc. |
+| 5 | Mình apply xxx công ty rồi chưa được nhận, sao lại thế nhỉ? | Có thể là do CV của bạn chưa làm nổi bật được kỹ năng, hoặc nhà tuyển dụng thấy chưa phù hợp. Tiếp tục rải CV tiếp nha |
+| 6 | Lấy đâu ra data để làm portfolio nhỉ? Làm gì cho portfolio bây giờ? | Bạn có thể lấy dataset trên kaggle nha. Ví dụ như có bạn lấy dataset về house price để làm báo cáo về so sánh giá nhà tại thời điểm x và y. Có thể làm dashboard, tool, bài phân tích,... tuỳ vào lợi thế của bạn. |
+| 7 | Tìm việc fresher/intern DA ở đâu? Em tìm quài ko thấy, các cty hình như ko tuyển ạ? | Đúng là việc cho fresher thường rất khó tìm, nhưng bạn có thể thử apply các job ghi là dành cho junior, hoặc chủ động cold message các anh/chị recruiter/hiring manager trên linkedin để xem cty/team của họ có headcount cho fresher/intern không. Ngoài ra còn cải thiện CV sau những lần phỏng vấn nữa. Nhớ là kiên nhẫn nha, vạn sự khởi đầu nan mà :) |
+| 8 | TBC, nghĩ ra sẽ viết tiếp :D |  |
+|  |  |  |
+
+### Kết bài <a name="conclusion"></a>
+
+Tàm tạm thế đã, nếu các bạn cần nhờ mình tư vấn hoặc góp ý CV, có thể gửi mail đến me@ha-giang.day nhé. Có thể reply hơi lâu chút vì mình cũng hơi bận xíu.
+
+Hi vọng bài này sẽ giúp ích cho các bạn, mong được nhìn thấy nhiều bạn DA giống mình hơn :D
